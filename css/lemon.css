@@ -295,3 +295,27 @@
 .bottom-center {
   background-position: center bottom 28% !important;
 }
+
+table.driver-table caption {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 60%;
+}
+table.driver-table td {
+  vertical-align: middle;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+table.driver-table th {
+  text-transform: uppercase;
+  font-size: 75%;
+}
+table.driver-table td:nth-child(2) {
+  font-size: 60%;
+}
+table.driver-table tfoot td {
+  text-align: center;
+  font-size: 60%;
+  border-bottom: none;
+  border-top: 1px solid currentColor;
+}
