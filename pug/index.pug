@@ -1,4 +1,4 @@
-- const talkTitle = "Designers & Developers: Friends w/ Benefits"
+- const talkTitle = "Designers vs Developers: Who Is In Control Here"
 doctype html
 head
   include partials/_head.pug
@@ -18,24 +18,7 @@ body
       include sections/_history.pug
 
       // Shitty Things I've Done
-      section
-        section
-          h3 This talk comes from pain.
-        section
-          h3 Worked with
-          ul
-            li Designer whose only experience was print
-            li (put every design inside of an iPhone skin)
-            li Did an entire website in Lottie.
-            li Built a software platform entirely dependent on Knockout JS
-            li Built a mobile app with Adobe PhoneGap.
-
-        section
-          h3 I have been the jerk.
-
-        section
-          h3 So, let's talk about collaboration...
-
+      include sections/_mistakes.pug
 
       // Typical Project Timelines
       include sections/_project-timelines.pug
