@@ -14,34 +14,65 @@ body
       // Personal Intro
       include sections/_hello.pug
 
+      // What it used to be like.
       include sections/_history.pug
 
+      // Shitty Things I've Done
+      section
+        section
+          h3 This talk comes from pain.
+        section
+          h3 Worked with
+          ul
+            li Designer whose only experience was print
+            li (put every design inside of an iPhone skin)
+            li Did an entire website in Lottie.
+            li Built a software platform entirely dependent on Knockout JS
+            li Built a mobile app with Adobe PhoneGap.
+
+        section
+          h3 I have been the jerk.
+
+        section
+          h3 So, let's talk about collaboration...
+
+
+      // Typical Project Timelines
       include sections/_project-timelines.pug
 
-      // Something needs to come before this part...
       section
         section(data-background-image="img/bg/curtains-1.jpg")
           .fragment
             h3 Introducing...
 
+      // The Driver
       include sections/_driver.pug
 
+      // UX != UI
       include sections/_ux-ui.pug
 
+      // The Navigator
       include sections/_navigator.pug
 
+      // What does the navigator do?
       include sections/_duties.pug
 
+      // Bad Relationships, Good Relationships, Get Over It.
       include sections/_relationships.pug 
 
+      // Nice things
       include sections/_nice-things.pug
 
+      // Bad Things
       include sections/_bad-things.pug
 
+      // The Worst Thing
       include sections/_worst-thing.pug
 
+      // So To Recap
       include sections/_recap.pug
 
+      // EVERYBODY LOVE ME NOW
       include sections/_thank-you.pug
   
     include partials/_javascripts.pug
