@@ -319,3 +319,11 @@ table.driver-table tfoot td {
   border-bottom: none;
   border-top: 1px solid currentColor;
 }
+
+.what-if .wi1 {
+  text-align: left;
+}
+.what-if .wi2 {
+  text-align: left;
+  text-indent: 2em;
+}

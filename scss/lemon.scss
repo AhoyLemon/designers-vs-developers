@@ -98,5 +98,10 @@ table.driver-table {
   td:nth-child(2) { font-size: 60%; }
   tfoot {
     td { text-align: center; font-size:60%; border-bottom: none; border-top:1px solid currentColor; }
-  }
+  }  
+}
+
+.what-if {
+  .wi1 { text-align: left; }
+  .wi2 { text-align: left; text-indent: 2em; }
 }
