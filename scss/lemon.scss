@@ -82,6 +82,22 @@
     > .source { opacity: 1; transition-delay: 1s; }
   }
 
+  // Table with row highlights
+  table.hit-me-up { width:100%;
+    caption { font-size: 80%; text-transform: uppercase; letter-spacing: 0.1em; }
+    th { font-size:80%; font-weight: 700; }
+    th.small,
+    td.small,
+    tr.small td { font-size:60%; vertical-align: middle; padding-bottom: 0.5em; }
+    tr.highlight {
+      td { background:white; color: black; }
+    }
+    td { vertical-align: middle; }
+    .no-line { border:none; }
+    svg, svg * { fill:currentColor; }
+    svg[role="img"] { width:1.5em; height:1.5em; }
+  }
+
 }
 
 .example { height:60vh; overflow-y: scroll; position:relative;
@@ -100,6 +116,8 @@ table.driver-table {
     td { text-align: center; font-size:60%; border-bottom: none; border-top:1px solid currentColor; }
   }  
 }
+
+
 
 .what-if {
   .wi1 { text-align: left; }
